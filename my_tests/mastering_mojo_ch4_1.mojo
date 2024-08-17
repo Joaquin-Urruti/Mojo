@@ -1,7 +1,8 @@
-from math_module import add, subtract
+import my_package.my_module
 
 fn main():
-    result_add = add(3, 5)
-    result_subtract = subtract(10, 7)
-    print(result_add)
-    print(result_subtract)
+    var add_result: Int = my_module.add(2, 3)
+    var subtract_result: Int = my_module.subtract(5, 2)
+
+    print(add_result)
+    print(subtract_result)
