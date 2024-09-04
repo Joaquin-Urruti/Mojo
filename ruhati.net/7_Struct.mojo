@@ -3,7 +3,7 @@ def main():
         var first_name: String
         var last_name: String
     
-    fn __init__(inout, self):
+    fn __init__(inout self):
         self.first_name = "Joaquín"
         self.last_name = "Urruti"
 

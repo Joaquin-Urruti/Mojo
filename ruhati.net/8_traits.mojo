@@ -17,4 +17,3 @@ fn main():
     Bird().fly()
     Bird().walk()
     Cat().walk()
-
